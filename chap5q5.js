@@ -5,4 +5,4 @@ let studentRegularTeam = Math.floor(numberOfStudents/numberOfTeams);
 let numberLargeTeam = numberOfStudents % numberOfTeams;
 let numberRegularTeam = numberOfTeams - numberLargeTeam;
 let studentLargeTeam = studentRegularTeam + 1;
-console.log(`${numberLargeTeam} teams with ${studentLargeTeam} members and ${numberRegularTeam} with ${studentRegularTeam} members`)
+console.log(`${numberLargeTeam} teams with ${studentLargeTeam} members and ${numberRegularTeam} teams with ${studentRegularTeam} members`)

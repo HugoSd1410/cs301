@@ -6,4 +6,3 @@ let numberLargeTeam = numberOfStudents % numberOfTeams;
 let numberRegularTeam = numberOfTeams - numberLargeTeam;
 let studentLargeTeam = studentRegularTeam + 1;
 console.log(`${numberLargeTeam} teams with ${studentLargeTeam} members and ${numberRegularTeam} teams with ${studentRegularTeam} members`)
-

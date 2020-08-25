@@ -30,14 +30,17 @@
 
 let a = 1;
 let b = 0;
-let f = 0;
-console.log(f);
+let c = 0;
+let output = 0;
 for(let i = 1; i <= 24; i++) {
    
-    f = a + b;
-    console.log(f);
+    c = a + b;
+    // console.log(f);
 
     a = b;
-    b = f;
+    b = c;
+    output = output + c + ", ";
     
 }
+output = 0 + ", " + output;
+console.log(output);

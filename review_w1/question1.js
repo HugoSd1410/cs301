@@ -19,3 +19,6 @@ console.log(typeof s); // output?
 z= !z;
 console.log("z = "+z); // output?
 console.log(typeof z); // output?
+console.log(s);
+console.log(x);
+console.log(y);

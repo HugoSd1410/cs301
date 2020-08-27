@@ -1,16 +1,14 @@
-let i = 0;
-let j = 1;
+// const arr1 = [1,5,7,9];
+// function doubleEveryElement(arr){
+// const temp_arr = [];
+// for(let i =0; i<arr.length; i++){
+// temp_arr[i] = arr[i]*2;
+// }
+// return temp_arr;
+// }
+// const doubled_arr = doubleEveryElement(arr1);
+// console.log(doubled_arr);
 
-let count = 1;
-let output ="";
-output = output +i+", "+j+", ";
-console.log(1);
-while (count<=23) {
-    let next = 1 + j;
-    output = output + next+", ";
-    u = j;
-    j = next;
-    count++;
-
-}
-console.log(output);
+const arr1 = [1,5,7,9];
+const doubled_arr = arr1.map(n => n*2);
+console.log(doubled_arr);

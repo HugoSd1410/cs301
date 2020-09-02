@@ -9,7 +9,7 @@ if(arr[i] === 0) {
 }
 
 }
-if (arr[0] === 1 && arr[arr.lenth -1] === 1) {
+if (arr[0] === 1 && arr[arr.length -1] === 1) {
 
     return true;
 }
@@ -20,5 +20,5 @@ let arr1 = [1, 2, 2, 1];
 let arr2 = [1, 2, 2, 2, 2, 2];
 let arr3 = [1, 2, 2, 3, 2, 1]
 
-let output = isOneTwoOne(arr2);
+let output = isOneTwoOne(arr1);
 console.log(output);

@@ -1,6 +1,6 @@
 const prompt = require("prompt-sync")();
 
-function findSumOfDigits(nnum) {
+function findSumOfDigits(num) {
     let sum = 0;
 
 while(num>0){

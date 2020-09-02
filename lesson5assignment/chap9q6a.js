@@ -37,4 +37,7 @@ function houseVolume(width, depth, height, sweep) {
     return house_volume;
 
 }
-console.log("house volume is "+houseVolume(width, depth, height, sweep));
+
+let output = houseVolume(width, depth, height, sweep);
+
+console.log("house volume is "+ output);

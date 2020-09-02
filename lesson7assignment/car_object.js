@@ -4,20 +4,32 @@ let car = {
     year: 2015,
     odometer: 80000,
     serviceCount: 20,
-    service: function () { return this.serviceCount++; },
-    getOdemeterReading: function () { console.log(this.odometer) },
-    reset: function(){ return this.serviceCount = this.odometer = 0},
+    service: function () { this.serviceCount++; },
+    getOdemeterReading: function () { return this.odometer},
+    reset: function(){ 
+        this.serviceCount =  0;
+        this.odometer = 0},
     
-    showService: function () { console.log(this.serviceCount); },
-    showReset: function () { console.log(this.serviceCount); console.log(this.odometer);},
+    // showService: function () { console.log(this.serviceCount); },
+    // showReset: function () { console.log(this.serviceCount); console.log(this.odometer);},
 
 }
 
 
+console.log(car.odometer);
+console.log(car.serviceCount);
 car.service();
 car.service();
 car.service();
-car.showService();
-car.getOdemeterReading();
+console.log(car.odometer);
+console.log(car.serviceCount);
+
 car.reset();
-car.showReset();
+
+console.log(car.odometer);
+console.log(car.serviceCount);
+
+
+// car.showService();
+
+// car.showReset();
